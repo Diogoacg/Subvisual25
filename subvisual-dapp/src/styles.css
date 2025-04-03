@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  h2, h3 {
+    color: #3498db;
+  }
+  
+  button {
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .token-info {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .balance {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .public-mint-section, .burn-section, .owner-mint-section {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #eee;
+    border-radius: 8px;
+  }
+  
+  .public-mint-section {
+    background-color: #e8f9f5;
+  }
+  
+  .burn-section {
+    background-color: #fde9e9;
+  }
+  
+  .owner-mint-section {
+    background-color: #f0f8ff;
+    margin-top: 30px;
+  }
+  
+  .limit-info {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .address-input {
+    width: 340px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3498db;
+  }
