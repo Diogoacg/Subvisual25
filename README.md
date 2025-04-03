@@ -1,6 +1,7 @@
 # Projeto MyToken - dApp Subvisual25
 
 Este README fornece instruções detalhadas sobre como configurar, executar e interagir com o projeto MyToken, uma aplicação descentralizada (dApp) desenvolvida para o desafio da Subvisual.
+A dApp está hospedada em: http://subvisualchallenge.netlify.app/
 
 ## Índice
 
